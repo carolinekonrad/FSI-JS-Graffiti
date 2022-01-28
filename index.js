@@ -8,5 +8,6 @@ for(let i = 0; i < dogImages.length; i++){
 }
 
 let dogNames = document.querySelectorAll('.dog-name')
-dogNames.style.color = "white"
-
+for(let i = 0; i < dogNames.length; i++){
+    dogNames[i].style.color = "magenta"
+}
